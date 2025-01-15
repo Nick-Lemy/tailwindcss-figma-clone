@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="p-10 grid grid-cols-10 grid-rows-5 h-screen gap-6">
+        <div class="col-span-10 border-2 border-red-500">A</div>
+        <div class="col-span-10 row-span-2  border-2 border-red-500 md:col-span-8">B</div>
+        <div class="col-span-5 border-2 border-red-500 md:col-start-1 md:col-span-4 md:row-span-2">C</div>
+        <div class="col-span-5 border-2 border-red-500 md:row-start-4 md:row-span-2 md:col-start-5 md:col-span-4">D
+        </div>
+        <div class="col-start-1 md:row-start-2 md:row-end-6 md:col-start-9 col-end-11 border-2 border-red-500">E</div>
+    </div>
+</body>
+
+</html>
